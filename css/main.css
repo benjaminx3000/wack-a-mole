@@ -64,14 +64,77 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#game{
+    position: relative;
+}
+
+.debug{
+    position: absolute;
+    bottom: 0;
+    left: 0;    
+    right: 0;
+    padding: 10px;
+}
+    .debug p {
+        margin-right: 20px;
+        display:  inline-block;
+    }
+    .debug p:last-child {
+        margin-right: 0;
+    }
 
 
 
 
 
 
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(img/mole@64.png);}
 
-
+.frame-0001 {width:192px; height:190px; background-position: -2px -2px}
+.frame-0002 {width:192px; height:190px; background-position: -196px -2px}
+.frame-0003 {width:192px; height:190px; background-position: -390px -2px}
+.frame-0004 {width:192px; height:190px; background-position: -584px -2px}
+.frame-0005 {width:192px; height:190px; background-position: -778px -2px}
+.frame-0006 {width:192px; height:190px; background-position: -972px -2px}
+.frame-0007 {width:192px; height:190px; background-position: -1166px -2px}
+.frame-0008 {width:192px; height:190px; background-position: -2px -194px}
+.frame-0009 {width:192px; height:190px; background-position: -196px -194px}
+.frame-0010 {width:192px; height:190px; background-position: -390px -194px}
+.frame-0011 {width:192px; height:190px; background-position: -584px -194px}
+.frame-0012 {width:192px; height:190px; background-position: -778px -194px}
+.frame-0013 {width:192px; height:190px; background-position: -972px -194px}
+.frame-0014 {width:192px; height:190px; background-position: -1166px -194px}
+.frame-0015 {width:192px; height:190px; background-position: -2px -386px}
+.frame-0016 {width:192px; height:190px; background-position: -196px -386px}
+.frame-0017 {width:192px; height:190px; background-position: -390px -386px}
+.frame-0018 {width:192px; height:190px; background-position: -584px -386px}
+.frame-0019 {width:192px; height:190px; background-position: -778px -386px}
+.frame-0020 {width:192px; height:190px; background-position: -972px -386px}
+.frame-0021 {width:192px; height:190px; background-position: -1166px -386px}
+.frame-0022 {width:192px; height:190px; background-position: -2px -578px}
+.frame-0023 {width:192px; height:190px; background-position: -196px -578px}
+.frame-0024 {width:192px; height:190px; background-position: -390px -578px}
+.frame-0025 {width:192px; height:190px; background-position: -584px -578px}
+.frame-0026 {width:192px; height:190px; background-position: -778px -578px}
+.frame-0027 {width:192px; height:190px; background-position: -972px -578px}
+.frame-0028 {width:192px; height:190px; background-position: -1166px -578px}
+.frame-0029 {width:192px; height:190px; background-position: -2px -770px}
+.frame-0030 {width:192px; height:190px; background-position: -196px -770px}
+.frame-0031 {width:192px; height:190px; background-position: -390px -770px}
+.frame-0032 {width:192px; height:190px; background-position: -584px -770px}
+.frame-0033 {width:192px; height:190px; background-position: -778px -770px}
+.frame-0034 {width:192px; height:190px; background-position: -972px -770px}
+.frame-0035 {width:192px; height:190px; background-position: -1166px -770px}
+.frame-0036 {width:192px; height:190px; background-position: -2px -962px}
+.frame-0037 {width:192px; height:190px; background-position: -196px -962px}
+.frame-0038 {width:192px; height:190px; background-position: -390px -962px}
+.frame-0039 {width:192px; height:190px; background-position: -584px -962px}
+.frame-0040 {width:192px; height:190px; background-position: -778px -962px}
+.frame-0041 {width:192px; height:190px; background-position: -972px -962px}
+.frame-0042 {width:192px; height:190px; background-position: -1166px -962px}
+.frame-0043 {width:192px; height:190px; background-position: -2px -1154px}
+.frame-0044 {width:192px; height:190px; background-position: -196px -1154px}
+.frame-0045 {width:192px; height:190px; background-position: -2px -2px}
 
 
 

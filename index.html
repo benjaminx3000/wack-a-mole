@@ -22,11 +22,11 @@
 
 
         <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
-        <!--
+        
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-title" content="">
-        -->
+        
 
         <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
         <!--
@@ -40,16 +40,26 @@
     <body>
 
         <!-- Add your site or application content here -->
+        <div id="game" style="background: green; height: 500px; width: 768px">
+            <span class="sprite frame-0030"></span>
+        </div>
+
 
         <script src="js/vendor/zepto.min.js"></script>
         <script src="js/helper.js"></script>
 
+        <script src="js/highfive/HighFive.js"></script>
+        <script src="js/highfive/utils/Debugger.js"></script>
+        <script src="js/app.js"></script>
+
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!--
         <script>
             var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
             g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
             s.parentNode.insertBefore(g,s)}(document,"script"));
         </script>
+        -->
     </body>
 </html>
